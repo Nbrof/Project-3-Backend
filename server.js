@@ -9,7 +9,7 @@ const PORT = process.env.PORT
 
 const app = express()
 const iceRouter = require('./controllers/products')
-const signRouter = require('./controllers/signup')
+const signRouter = require('./controllers/signups')
 
 app.use(cors()); 
 app.use(express.json()); 
