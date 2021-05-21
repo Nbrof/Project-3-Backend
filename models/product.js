@@ -13,7 +13,7 @@ const productSchema = new Schema(
     img: String,
     price: String,
     rating: String,
-  },
+  },git p
   { timestamps: true }
 );
 
