@@ -2,9 +2,17 @@ const router = require("express").Router();
 
 const { Router } = require("express")
 
-const Products = require ("../models/product")
+const Signup = require ("../models/signup")
 
-const productsSeed = [
+const signupSeed = [
+
+  {
+    name: "Jane Doe",
+    pass: "23ddgw",
+    email: "dogsncats@gmail.com",
+    address: "234 Alfred Ave",
+  },
+
 
 ];
 
@@ -14,10 +22,10 @@ const productsSeed = [
 
 router.get("/", async (req, res) => {
     try {
-      await Products.remove({});
-      await Products.create(productsSeed);
-      const products = await Products.find({});
-      res.json(products);
+      await Signup.remove({});
+      await Signup.create(signupSeed);
+      const signups = await Signup.find({});
+      res.json(signups);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -27,8 +35,8 @@ router.get("/", async (req, res) => {
  //Index route  
   router.get("/", async (Req, res) => {
     try {
-      const products = await Products.find({});
-      res.json(products);
+      const signups = await Signup.find({});
+      res.json(signups);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -38,8 +46,8 @@ router.get("/", async (req, res) => {
   //Create route 
   router.post("/", async (req, res) => {
     try {
-      const newProducts = await Products.create(req.body);
-      res.json(newProducts);
+      const newSignup = await Signup.create(req.body);
+      res.json(newSignup);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -48,12 +56,12 @@ router.get("/", async (req, res) => {
   //Update route
   router.put("/:id", async (req, res) => {
     try {
-      const updatedProducts = await Products.findByIdAndUpdate(
+      const updatedSignup = await Signup.findByIdAndUpdate(
         req.params.id,
         req.body,
         { new: true }
       );
-      res.json(updatedProducts);
+      res.json(updatedSignup);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -63,8 +71,8 @@ router.get("/", async (req, res) => {
   //Delete route
   router.delete("/:id", async (req, res) => {
     try {
-      const deletedProducts = await Products.findByIdAndRemove(req.params.id);
-      res.json(deletedProducts);
+      const deletedSignup = await Signup.findByIdAndRemove(req.params.id);
+      res.json(deletedSignup);
     } catch (error) {
       res.status(400).json(error);
     }
