@@ -5,6 +5,16 @@ const { Router } = require("express")
 const Products = require ("../models/product")
 
 const productsSeed = [
+  {
+    name: "Chocolate Crunch",
+    type: "Filler",
+    dairy: False,
+    toppings: False,
+    description: "A tasty Chocolate treat!",
+    img: "https://www.notion.so/Design-Assets-4541dddeab9a4707bfbdd56af7fb80b2#8913bc2cf66245f4b11963f0ec2d3eb8",
+    price: "3,99$",
+    rating: "9/10"
+  },
 
 ];
 
