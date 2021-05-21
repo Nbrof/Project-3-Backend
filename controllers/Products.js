@@ -27,8 +27,8 @@ router.get("/", async (req, res) => {
  //Index route  
   router.get("/", async (Req, res) => {
     try {
-      const songs = await Tunr.find({});
-      res.json(songs);
+      const products = await Products.find({});
+      res.json(products);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -38,8 +38,8 @@ router.get("/", async (req, res) => {
   //Create route 
   router.post("/", async (req, res) => {
     try {
-      const newSongs = await Tunr.create(req.body);
-      res.json(newSongs);
+      const newProducts = await Products.create(req.body);
+      res.json(newProducts);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -48,12 +48,12 @@ router.get("/", async (req, res) => {
   //Update route
   router.put("/:id", async (req, res) => {
     try {
-      const updatedSongs = await Tunr.findByIdAndUpdate(
+      const updatedProducts = await Products.findByIdAndUpdate(
         req.params.id,
         req.body,
         { new: true }
       );
-      res.json(updatedSongs);
+      res.json(updatedProducts);
     } catch (error) {
       res.status(400).json(error);
     }
@@ -63,8 +63,8 @@ router.get("/", async (req, res) => {
   //Delete route
   router.delete("/:id", async (req, res) => {
     try {
-      const deletedSongs = await Tunr.findByIdAndRemove(req.params.id);
-      res.json(deletedSongs);
+      const deletedProducts = await Products.findByIdAndRemove(req.params.id);
+      res.json(deletedProducts);
     } catch (error) {
       res.status(400).json(error);
     }
