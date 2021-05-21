@@ -37,7 +37,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 ## TimeFrames
 
 | Component | Priority | Estimated Time | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
+| --- | :---: |  :---: | :---: |
 | Basic Backend Folder Structure | M | 1hrs|-| 
 | Structure Planning | M | 2hrs|-| 
 | Additional Libraries Research| M | 2hrs|-| 
