@@ -8,7 +8,7 @@ const PORT = process.env.PORT
 
 
 const app = express()
-
+const iceRouter = require('./controllers/products')
 
 app.use(cors()); 
 app.use(express.json()); 
@@ -21,6 +21,7 @@ app.get('/', (req, res) => {
     })
 })
 
+app.use("/icecream", iceRouter);
 
 
 app.listen(PORT, () => {
