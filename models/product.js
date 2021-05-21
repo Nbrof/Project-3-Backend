@@ -13,10 +13,10 @@ const productSchema = new Schema(
     img: String,
     price: String,
     rating: String,
-  },
+  },git p
   { timestamps: true }
 );
 
-const Product = model("Product", productSchema);
+const product = model("Product", productSchema);
 
 module.exports = Product;
