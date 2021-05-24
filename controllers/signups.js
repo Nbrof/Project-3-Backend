@@ -2,19 +2,20 @@ const router = require("express").Router();
 
 const { Router } = require("express")
 
-const Signup = require ("../models/signup")
+const Signup = require("../models/signup")
+const signupSeed = require("../db/seedDataSignup.json")
 
-const signupSeed = [
+// const signupSeed = [
 
-  {
-    name: "Jane Doe",
-    pass: "23ddgw",
-    email: "dogsncats@gmail.com",
-    address: "234 Alfred Ave",
-  },
+//   {
+//     name: "Jane Doe",
+//     pass: "23ddgw",
+//     email: "dogsncats@gmail.com",
+//     address: "234 Alfred Ave",
+//   },
 
 
-];
+// ];
 
 
 
