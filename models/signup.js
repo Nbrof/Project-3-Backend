@@ -13,6 +13,6 @@ const signupSchema = new Schema(
   { timestamps: true }
 );
 
-const signup = model("Signup", signupSchema);
+const Signup = model("Signup", signupSchema);
 
 module.exports = Signup;
