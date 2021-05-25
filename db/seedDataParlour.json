@@ -1,8 +1,18 @@
 [
     {
-      "name": "Chocolate Barn",
+      "name": "Ice Wave",
       "location": "San Fransico",
-      "image": "Fancy image"
+      "image": "https://images.unsplash.com/photo-1525451167239-264fb77ad20f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aWNlJTIwY3JlYW0lMjBzdG9yZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+      "name": "Italeis Salon",
+      "location": "Italy",
+      "image": "https://images.unsplash.com/photo-1574793325665-83974b5ff11b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aWNlJTIwY3JlYW0lMjBzaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    }
+    {
+      "name": "Leopold",
+      "location": "Antarctica",
+      "image": "https://images.unsplash.com/photo-1575004888570-667789179bd9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aWNlJTIwY3JlYW0lMjBzaG9wfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
     }
   ]
 
