@@ -1,6 +1,5 @@
 const router = require("express").Router();
 
-const { Router } = require("express");
 
 const Products = require("../models/product");
 const productsSeed =  require("../db/seedDataProducts.json")
@@ -41,6 +40,7 @@ router.get("/", async (req, res) => {
   }
 });
 
+// Show one route
 router.get("/:name", async (req, res) => {
   try {
     const product = await Products.find({name: req.params.name})
