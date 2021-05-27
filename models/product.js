@@ -11,7 +11,7 @@ const productSchema = new Schema(
     toppings: Boolean,
     description: String,
     img: String,
-    price: String,
+    price: Number,
     rating: String,
   },
   { timestamps: true }
