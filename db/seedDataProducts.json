@@ -127,7 +127,7 @@
       "toppings": true,
       "description": "Two chocolate waffers with some tasty vanilla and marshmellow inbetween!",
       "img": "https://images.unsplash.com/photo-1560718673-83f740ddb1a2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$7.99",
+      "price": 7.99,
       "rating": "9/10"
     },
     {

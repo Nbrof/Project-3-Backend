@@ -62,6 +62,8 @@ router.post("/", async (req, res) => {
 //   }
 // });
 
+//THIS IS A TEST
+
 // UPDATE ROUTE
 router.put('/:id/addProducts/:productId', async (req,res) => {
   // params = { farmId: 1234, fruitId: 8909}
