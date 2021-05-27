@@ -1,26 +1,18 @@
 const router = require("express").Router();
 
-const Login = require("../models/login");
-const loginSeed = require("../db/seedDataLogin.json");
 
-// const loginSeed = [
+const Parlour = require("../models/parlour");
+const parlourSeed =  require("../db/seedDataParlour.json")
 
-//   {
-// email: "dogsncats@gmail.com",
-//     pass: "23ddgw",
-//
-//   },
-
-// ];
 
 //Seed Route
 
 router.get("/seed", async (req, res) => {
   try {
-    await Login.remove({});
-    await Login.create(loginSeed);
-    const logins = await Login.find({});
-    res.json(logins);
+    await Parlour.remove({});
+    await Parlour.create(parlourSeed);
+    const parlours = await Parlour.find({});
+    res.json(parlours);
   } catch (error) {
     res.status(400).json(error);
   }
@@ -29,28 +21,28 @@ router.get("/seed", async (req, res) => {
 //Index route
 router.get("/", async (req, res) => {
   try {
-    const login = await Login.find({});
-    res.json(logins);
+    const parlours = await Parlour.find({});
+    res.json(parlours);
   } catch (error) {
     res.status(400).json(error);
   }
 });
 
 // Show one route
-router.get("/:email", async (req, res) => {
+router.get("/:name", async (req, res) => {
   try {
-    const login = await Login.find({ email: req.params.email });
-    res.json(login);
+    const parlour = await Parlour.find({name: req.params.name})
+    res.json(parlour)
   } catch (error) {
-    res.status(400).json(error);
+    res.status(400).json(error)
   }
-});
+})
 
 //Create route
 router.post("/", async (req, res) => {
   try {
-    const newLogin = await Login.create(req.body);
-    res.json(newLogin);
+    const newParlour = await Parlour.create(req.body);
+    res.json(newParlour);
   } catch (error) {
     res.status(400).json(error);
   }
@@ -59,12 +51,12 @@ router.post("/", async (req, res) => {
 //Update route
 router.put("/:id", async (req, res) => {
   try {
-    const updatedLogin = await Login.findByIdAndUpdate(
+    const updatedParlour = await Parlour.findByIdAndUpdate(
       req.params.id,
       req.body,
       { new: true }
     );
-    res.json(updatedLogin);
+    res.json(updatedParlour);
   } catch (error) {
     res.status(400).json(error);
   }
@@ -73,8 +65,8 @@ router.put("/:id", async (req, res) => {
 //Delete route
 router.delete("/:id", async (req, res) => {
   try {
-    const deletedLogin = await Login.findByIdAndRemove(req.params.id);
-    res.json(deletedLogin);
+    const deletedParlour = await Parlour.findByIdAndRemove(req.params.id);
+    res.json(deletedParlour);
   } catch (error) {
     res.status(400).json(error);
   }

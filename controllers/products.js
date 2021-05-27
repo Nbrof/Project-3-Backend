@@ -1,6 +1,5 @@
 const router = require("express").Router();
 
-const { Router } = require("express");
 
 const Products = require("../models/product");
 const productsSeed =  require("../db/seedDataProducts.json")
@@ -32,7 +31,7 @@ router.get("/seed", async (req, res) => {
 });
 
 //Index route
-router.get("/", async (Req, res) => {
+router.get("/", async (req, res) => {
   try {
     const products = await Products.find({});
     res.json(products);
@@ -40,6 +39,16 @@ router.get("/", async (Req, res) => {
     res.status(400).json(error);
   }
 });
+
+// Show one route
+router.get("/:name", async (req, res) => {
+  try {
+    const product = await Products.find({name: req.params.name})
+    res.json(product)
+  } catch (error) {
+    res.status(400).json(error)
+  }
+})
 
 //Create route
 router.post("/", async (req, res) => {
@@ -50,8 +59,6 @@ router.post("/", async (req, res) => {
     res.status(400).json(error);
   }
 });
-
-
 
 //Update route
 router.put("/:id", async (req, res) => {
