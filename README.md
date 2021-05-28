@@ -38,18 +38,18 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: |
-| Basic Backend Folder Structure | M | 1hrs|-| 
-| Structure Planning | M | 2hrs|-| 
-| Additional Libraries Research| M | 2hrs|-| 
-| Schema/Model Development| H | 2hrs|-| 
-| Connection Assembly| H | 1hrs|-| 
-| Seed Development | L | 1hrs|-| 
-| First Database Route Structure | H | 2hrs|-| 
-| Second Database Route Structure| H | 2hrs|-| 
-| Server.JS Assembly| H | 2hrs|-| 
-| Ensuring Database connections| M | 2.5hrs|-| 
-| Bug Fixes| M | 2.5hrs|-| 
-| Total Backend | H | 20hrs|-| 
+| Basic Backend Folder Structure | M | 1hrs|2hrs| 
+| Structure Planning | M | 2hrs|2hrs| 
+| Additional Libraries Research| M | 2hrs|1hrs| 
+| Schema/Model Development| H | 2hrs|2hrs| 
+| Connection Assembly| H | 1hrs|30mins| 
+| Seed Development | L | 1hrs|3hrs| 
+| First Database Route Structure | H | 2hrs|2hrs| 
+| Second Database Route Structure| H | 2hrs|2hrs| 
+| Server.JS Assembly| H | 2hrs|1hr| 
+| Ensuring Database connections| M | 2.5hrs|2hrs| 
+| Bug Fixes| M | 2.5hrs|3hrs| 
+| Total Backend | H | 20hrs|20hrs 30mins| 
 
 
 
