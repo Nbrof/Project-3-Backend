@@ -96,13 +96,8 @@
       "dairy": true,
       "toppings": true,
       "description": "A combination of Strawberry and Raspberry! A great fruity flavor for a cold day!",
-<<<<<<< HEAD
-      "img": "https://images.unsplash.com/flagged/photo-1565192835791-7b3069d9eea4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$6.99",
-=======
       "img": "https://images.unsplash.com/flagged/photo-1565192835791-7b3069d9eea4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
       "price": 6.99,
->>>>>>> 2b2676cfca4b500f2d777015b32d6c4d9b1c8d6a
       "rating": "9/10"
     },
     {
