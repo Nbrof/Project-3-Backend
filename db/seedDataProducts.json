@@ -7,7 +7,7 @@
       "toppings": true,
       "description": "A chocolate sunday covered and fudge, sprinkles, and tons of toppings. A real treat to anyone with a love for sugar and a lack of care about health!",
       "img": "https://images.unsplash.com/photo-1558500113-0d9cc3fa25ca?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTl8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$10.99",
+      "price": 10.99,
       "rating": "9.75/10"
     },
     {
@@ -17,7 +17,7 @@
       "toppings": false,
       "description": "Simply Strawberry! A classic cone with a smooth creamy strawberry icecream sure to please anyone!",
       "img": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "8.25/10"
     },
     {
@@ -27,7 +27,7 @@
       "toppings": true,
       "description": "A frosted cone bowl covered in sprinkles and filled with three scoops of an inhouse made vanilla!",
       "img": "https://images.unsplash.com/photo-1560008581-09826d1de69e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60](https://images.unsplash.com/photo-1560008581-09826d1de69e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$6.99",
+      "price": 6.99,
       "rating": "8.5/10"
     },
     {
@@ -37,7 +37,7 @@
       "toppings": false,
       "description": "Sweet and tart Raspberries blended and churned molded into easy to handle bars! An easy favorite for ice cream on the go!",
       "img": "https://images.unsplash.com/photo-1488900128323-21503983a07e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -47,7 +47,7 @@
       "toppings": false,
       "description": "A fragrant honey lavender cone that is just as pleasing to the nose as it is to the tastebuds!",
       "img": "https://images.unsplash.com/photo-1554521718-e87e96d67ca5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60](https://images.unsplash.com/photo-1554521718-e87e96d67ca5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8aWNlJTIwY3JlYW18ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$5.99",
+      "price": 5.99,
       "rating": "9/10"
     },
     {
@@ -57,7 +57,7 @@
       "toppings": true,
       "description": "Our favorite day of the week, And soon to be yours too! This rich and creamy treat vanilla ice cream with a soft chocholate drizzle, a smooth whipped topping with crumbs will amaze all the senses on your tongue!",
       "img": "https://images.unsplash.com/photo-1557142046-c704a3adf364?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
-      "price": "$7.99",
+      "price": 7.99,
       "rating": "9/10"
     },
     {
@@ -67,7 +67,7 @@
       "toppings": false,
       "description": "Smooth tasty Matcha atop our in house made Vanilla!",
       "img": "https://images.unsplash.com/photo-1583052606401-ba82199fffc9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$5.99",
+      "price": 5.99,
       "rating": "9/10"
     },
     {
@@ -77,7 +77,7 @@
       "toppings": true,
       "description": "A delectable treat for nut lovers anywhere! Smooth Peanut butter with chunks of walnut. ",
       "img": "https://images.unsplash.com/photo-1570835226811-0ecd174631f7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60 ",
-      "price": "$5.99",
+      "price": 5.99,
       "rating": "9/10"
     },
     {
@@ -87,17 +87,22 @@
       "toppings": false,
       "description": "An inhouse blend of cherry. Strawberry, And Mango create this tart and delectabe treat!",
       "img": "https://images.unsplash.com/photo-1532678465554-94846274c297?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60](https://images.unsplash.com/photo-1532678465554-94846274c297?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-      "price": "$2.99",
+      "price": 2.99,
       "rating": "9/10"
     },
     {
-      "name": "Strawberry Chia ",
+      "name": "Strawberry Chia",
       "type": "Sundae",
       "dairy": true,
       "toppings": true,
       "description": "A combination of Strawberry and Raspberry! A great fruity flavor for a cold day!",
+<<<<<<< HEAD
       "img": "https://images.unsplash.com/flagged/photo-1565192835791-7b3069d9eea4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
       "price": "$6.99",
+=======
+      "img": "https://images.unsplash.com/flagged/photo-1565192835791-7b3069d9eea4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
+      "price": 6.99,
+>>>>>>> 2b2676cfca4b500f2d777015b32d6c4d9b1c8d6a
       "rating": "9/10"
     },
     {
@@ -107,7 +112,7 @@
       "toppings": true,
       "description": "Layers of crumbled oreo over cold Vanilla topped with warm gooey melted Chocolate. A must get for chocolate lovers.",
       "img": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=6](https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$8.99",
+      "price": 8.99,
       "rating": "9/10"
     },
     {
@@ -117,7 +122,7 @@
       "toppings": true,
       "description": "Strawberry and blueberry Ice cream covered in sprinkles, A favorite for the kids!",
       "img": "https://images.unsplash.com/photo-1587563974670-b5181b459b30?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
-      "price": "$6.99",
+      "price": 6.99,
       "rating": "9/10"
     },
     {
@@ -127,7 +132,7 @@
       "toppings": true,
       "description": "Two chocolate waffers with some tasty vanilla and marshmellow inbetween!",
       "img": "https://images.unsplash.com/photo-1560718673-83f740ddb1a2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$7.99",
+      "price": 7.99,
       "rating": "9/10"
     },
     {
@@ -137,7 +142,7 @@
       "toppings": false,
       "description": "Smooth Mango ice cream on a waffle cone, A fruity delight!",
       "img": "https://images.unsplash.com/photo-1613489977845-8ec7e0ff3ae0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjR8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -147,7 +152,7 @@
       "toppings": true,
       "description": "Smooth Vanilla ice cream with chucks of chocolate and cookie dough inbetween!",
       "img": "https://images.unsplash.com/photo-1543717275-5d6b06b83f87?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$5.99",
+      "price": 5.99,
       "rating": "9/10"
     },
     {
@@ -157,7 +162,7 @@
       "toppings": true,
       "description": "Our chocolate and vanilla mix coated in small marshmellows and flipped upside down!",
       "img": "https://images.unsplash.com/photo-1572829214292-1f9b1aa3b1ce?ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fGljZSUyMGNyZWFtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
-      "price": "$7.99",
+      "price": 7.99,
       "rating": "9/10"
     },
     {
@@ -167,7 +172,7 @@
       "toppings": false,
       "description": "Tasty soft server ice cream with a few sweet streaks of blueberry through it!",
       "img": "https://images.unsplash.com/photo-1505075232616-5aea40f97c63?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA0fHxpY2UlMjBjcmVhbXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 ",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -177,7 +182,7 @@
       "toppings": true,
       "description": "A tasty soft server blueberry with orange ice cream underneath! For all the fruit sweet tooths out there!",
       "img": "https://images.unsplash.com/photo-1504050502639-3d3c3f6266cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA1fHxpY2UlMjBjcmVhbXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -187,7 +192,7 @@
       "toppings": false,
       "description": "A tasty float with sweet grape flavors!",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd4tV34_W4imu5pwoAkvv_I11aaan_p_SOPA&usqp=CAU",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -197,7 +202,7 @@
       "toppings": false,
       "description": "The fruity taste of Elderberries nice and smooth with some whipped cream on top!",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCeHglwPe_Sdx6x8JhHTSahUR-3fbqufPeig&usqp=CAU ",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -207,7 +212,7 @@
       "toppings": false,
       "description": "Frothy sweet Root Beer with delicious Vanilla!",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqbMrHeEqX3v8RtvEV24HpEihOsOSwhrv7Hg&usqp=CAU",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -217,7 +222,7 @@
       "toppings": false,
       "description": "The lovely creamy flavor of cocunut in float form!",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJ9AbwdaQtKWdjvAPwPD4GBdE6uaVKewU2A&usqp=CAU",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -227,7 +232,7 @@
       "toppings": false,
       "description": "The fruity wonderful flavors of blue berry in a creamy vanilla!",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQny9zslKxoa1LhUWB4Tj-qPeY52W-AcYE73g&usqp=CAU",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     },
     {
@@ -237,7 +242,7 @@
       "toppings": false,
       "description": "The Tangy zip of blue berry in a lovely float!",
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNy6hfHmmsV_PSawbOZcuuANF1aqlB0cNa2g&usqp=CAU",
-      "price": "$3.99",
+      "price": 3.99,
       "rating": "9/10"
     }
   ]
